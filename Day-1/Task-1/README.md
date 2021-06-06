@@ -1,0 +1,1 @@
+<img src="RegistrationForm.jpeg" alter="RegistrationForm.jpeg">
