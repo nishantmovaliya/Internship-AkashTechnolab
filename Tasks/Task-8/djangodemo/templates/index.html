@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content1 %}
+<h2>Home</h2>
+{% endblock %}
+
+{% block content2 %}
+<img src="{% static 'img\Gec.jpg' %}" alter="Gec Modasa" width="400px">
+<br>
+{% lorem 1 b random %}
+{% endblock %}
