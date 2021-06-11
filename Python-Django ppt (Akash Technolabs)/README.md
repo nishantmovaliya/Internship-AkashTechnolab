@@ -2,22 +2,31 @@ Python:
 --------
 1-Day Python Internship
 	https://youtu.be/PS-D_Hgp8pw
+
 2- Day Python Internship
 	https://youtu.be/WtO_3RFG_iU
+
 3- Day Python Internship
 	https://youtu.be/FjAenN1a7Xk
+
 4- Day Python Internship
 	https://youtu.be/5nAPcy3iKMI
+
 5- Day Internship
 	https://youtu.be/vmtO5DWjvcI
+
 6- Day Internship
 	https://youtu.be/BMd6RdOZ-yo
+
 7- Day Django Day 2
 	https://youtu.be/K4wT_oKAof4
+
 8- Day Django Theme
 	https://youtu.be/1lDoXGjikUE
+
 9- Day Django GetPost
 	https://youtu.be/SKlLIaeWkuQ
+	
 10-Day Django DB
 	https://youtu.be/v22oJ47DMNM
 
