@@ -1,0 +1,57 @@
+{% extends 'base.html' %} 
+{% load static %} 
+
+{% block content1 %}
+<h2>Display</h2>
+{% endblock %} 
+
+
+{% block content2 %}
+{% comment %} First Name:{{fname}}<br>
+Last Name:{{lname}}<br>
+Gender:{{gender}}<br>
+Birth Date:{{dob}}<br>
+Contact:{{country_code}} {{contact}}<br>
+Email:{{email}}<br>
+Password:{{password}}<br>
+Re-type Password:{{retypepass}}<br>  {% endcomment %}
+<div class="data">
+<table>
+        <tr>
+            <td>First Name:</td>
+            <td>{{fname}}</td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td>{{lname}}</td>
+        </tr>
+        <tr>
+            <td>Gender:</td> 
+            <td>{{gender}}</td>
+        </tr>
+        <tr>
+            <td>Birth Date:</td>
+            <td>{{dob}}</td>
+        </tr>
+        <tr>
+            <td>Contact:</td>
+            <td>{{country_code}} {{contact}}</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>{{email}}</td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>{{password}}</td>
+        </tr>
+        <tr>
+            <td>Re-type Password:</td>
+            <td>{{retypepass}}</td>
+        </tr>
+</table>
+</div>
+{% endblock  %}
+
+
+

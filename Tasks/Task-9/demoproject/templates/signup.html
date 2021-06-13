@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content1 %}
+<h2>Sign Up</h2>
+{% endblock content1 %}
+
+{% block content2 %}
+<form action="/formprocess" method="post">
+{% csrf_token %}
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="fname" id="fname" placeholder="Enter First Name" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="lname" id="lname" placeholder="Enter Last Name" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender:
+                    </td>
+                    <td>
+                        Male<input type="radio" name="gender" id="male" required>
+                        Female<input type="radio" name="gender" id="female" required>
+                        Other<input type="radio" name="gender" id="Other" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Birth Date:</td>
+                    <td>
+                        <input type="date" name="birthdate" id="birthdate">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact:</td>
+                    <td>
+                        <input type="text" name="country_code"  placeholder="+91" id="country_code" size="2" required>  
+                        <input type="tel" name="contact" id="contact" placeholder="Enter Contact Number " required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" id="email" placeholder="Enter Email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" id="password" placeholder="Enter Password" required></td>
+                </tr>
+                <tr>
+                    <td>Re-type Password:</td>
+                    <td><input type="password" name="retypepass" id="retypepass" placeholder="Re-enter password" required></td>
+                </tr>
+                <tr>
+                    <td ><input type="submit" value="Sign Up" class="button"></td>
+                    <td><input type="Reset" class="button"></td>
+                </tr>
+            </table>
+        </form>
+{% endblock content2 %}
